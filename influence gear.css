@@ -123,7 +123,47 @@
 .card-ratting{
   color: #FB8200;
 }
+
+.see-more{
+  text-align: right;
+  font-weight: bold;
+  color: rgba(224, 44, 109, 0.87);
+}
 /* collection section start here  */
+
+/* feature section start here  */
+.feature-section{
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  margin-bottom: 100px;
+  align-items: center;
+  align-items: start;
+}
+.feature-details h3{
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #0A0826;
+}
+.feature-title{
+  margin-bottom: -5px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #0A0826;
+}
+.feature-description{
+  font-weight: bold;
+  color: #6C6C6C;
+}
+.feature-btn{
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #E02C6D;
+  padding: 12px 24px;
+  border: none;
+}
+/* feature section ends here  */
 
 /* media section */
 /* small device  */
@@ -155,6 +195,13 @@
   .collection-card-body{
     grid-template-columns: none;
   }
+  .feature-section{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .feature-img{
+    width: 100%;
+  }
   
 }
 
@@ -180,5 +227,9 @@
   } 
   .collection-card-body{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .feature-section{
+    justify-content: center;
+    align-items: center;
   }
 }
