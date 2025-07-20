@@ -239,6 +239,9 @@
   .collection-card-body{
     grid-template-columns: none;
   }
+  .collection-card{
+    margin: 0 auto;
+  }
   .feature-section{
     flex-direction: column-reverse;
     text-align: center;
@@ -271,6 +274,9 @@
   } 
   .collection-card-body{
     grid-template-columns: repeat(2, 1fr);
+  }  
+  .collection-card{
+    margin: 0 auto;
   }
   .feature-section{
     justify-content: center;
