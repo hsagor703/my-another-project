@@ -241,10 +241,6 @@
   }
   .collection-card{
     margin: 0 auto;
-    width: 100%;
-  }
-  .card-img, .card-details{
-    width: 100%;
   }
   .feature-section{
     flex-direction: column-reverse;
@@ -281,12 +277,8 @@
   }  
   .collection-card{
     margin: 0 auto;
-    width: 100%;
   }
 
-  .card-img, .card-details{
-    width: 100%;
-  }
   .feature-section{
     justify-content: center;
     align-items: center;
