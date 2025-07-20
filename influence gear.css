@@ -45,6 +45,10 @@
   text-decoration: none;
   color: #3a3a3a;
 }
+
+.icon{
+  font-size: 1.6rem;
+}
 /* navbar section ends here  */
 
 /* journey section start here */
@@ -164,6 +168,46 @@
   border: none;
 }
 /* feature section ends here  */
+
+/* footer section start here  */
+.footer-section{
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #0a0a20;
+}
+.footer-details, li a{
+  text-align: center;
+  padding-top: 20px;
+}
+.footer-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: -10px;
+}
+.footer-description{
+  font-weight: 600;
+  color: #D9DBE1;
+}
+.links{
+  text-align: center;
+}
+.website{
+  display: flex;
+  justify-content: center;
+  padding: 0 0 20px 0;
+  align-items: center;
+}
+.website li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+.website li a{
+  color: #ffffff;
+  font-size: 2rem;
+}
+/* footer section ends here  */
 
 /* media section */
 /* small device  */
